@@ -1,0 +1,20 @@
+# xAILab
+# Chair of Explainable Machine Learning
+# Otto-Friedrich University of Bamberg
+#
+# Parameter and hyperparameter configurations for the evaluation of the training.
+
+# Parameters
+dataset: 'camelyon17'  # Which dataset to use.
+data_path: '../data/camelyon17'  # Where the dataset is stored
+input_path: '../checkpoints/train'  # Parent directory to where the trained model is stored.
+backbone_classifier: 'densenet121'  # Which backbone to use for the classifier head(s).
+img_size: 224  # Height and width of the input
+in_channel: 3  # Channel dimension of the input
+num_classes: 2  # Number of classes.
+batch_size: 512  # Batch size for the training.
+seed: 126423251  # Seed for random operations for reproducibility.
+device: 'cuda:0'  # Which device to run the computations on.
+kwargs:
+  patch_size: 16  # Size of image patches.
+  embedding_dim: 768  # Latent space dimension of the encoder. (768, 1056)

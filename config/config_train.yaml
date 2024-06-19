@@ -1,0 +1,34 @@
+# xAILab
+# Chair of Explainable Machine Learning
+# Otto-Friedrich University of Bamberg
+#
+# Parameter and hyperparameter configurations for training.
+
+# Parameters
+dataset: 'camelyon17'  # Which dataset to use.
+data_path: '../data/camelyon17'  # Where the dataset is stored
+input_path: '../checkpoints/pretrain'  # Parent directory to where the pretrained model is stored.
+output_path: '../checkpoints/train'  # Parent directory to where the trained model shall be stored.
+backbone_classifier: 'densenet121'  # Which backbone to use for the classifier head(s).
+resume_training: # Whether to resume the training from a given checkpoint.
+    resume: False  # Whether to load the checkpoint or not.
+    wandb_id: 'xxx'  # wandb ID of the run to resume.
+starting_epoch: 0  # Which epoch to start from.
+epochs: 10  # How many epochs to train for.
+img_size: 224  # Height and width of the input
+in_channel: 3  # Channel dimension of the input
+num_mixes: 1  # Number of mixtures to sample from.
+num_classes: 2  # Number of classes.
+learning_rate: 0.0001 # Learning rate
+weight_decay: 0.05  # Weight decay
+seed: 126423251  # Seed for random operations for reproducibility.
+batch_size: 64  # Batch size for the training.
+max_gpu_batch_size: 32  # Maximum batch size for the GPU. (32, 8)
+device: 'cuda:0'  # Which device to run the computations on.
+kwargs:
+    patch_size: 16  # Size of image patches.
+    embedding_dim: 768  # Latent space dimension of the encoder. (768, 1056)
+    depth: 12 # Depth (Number of blocks) of the encoder. (12, 24)
+    num_heads: 16  # Number of attention heads.
+    mlp_ratio: 4.  # Ratio of the hidden dimension compared to the input dimension of the Multi-Layer-Perceptron (MLP) - layer.
+    norm_layer: 'nn.LayerNorm'  # Normalization layer.

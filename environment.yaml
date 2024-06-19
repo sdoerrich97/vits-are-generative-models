@@ -1,0 +1,25 @@
+# xAILab
+# Chair of Explainable Machine Learning
+# Otto-Friedrich University of Bamberg
+#
+# @description:
+# Contains all the required packages for the project.
+#
+# @author: Sebastian Doerrich
+# @email: sebastian.doerrich@uni-bamberg.de
+
+name: unoranic-sharp
+dependencies:
+  - python=3.11.7
+  - pytorch
+  - einops
+  - matplotlib
+  - seaborn
+  - wandb
+  - timm
+  - albumentations
+  - transformers
+  - accelerate
+  - wilds
+  - torch_geometric
+  - pytorch-scatter
