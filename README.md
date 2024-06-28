@@ -23,7 +23,7 @@ We assess the domain generalization ability of our method on the *Camelyon17-wil
 dataset and assessing the image quality of the image synthesizer's reconstructions (no mixing) and generated synthetic images, which exhibit the same anatomy but varied characteristics. Furthermore, we [quantitatively evaluate](#training-set-diversity-enhancement-for-improved-automatic-disease-classification) our method's suitability for improving domain generalization. For this, we employ our stand-alone encoder to generate additional synthetic images with mixed anatomy and characteristics, augmenting the training set diversity on the fly. These synthetic images, alongside the originals, are afterward fed into a subsequent classifier allowing it to learn from a more diverse set of samples, thereby generalizing better to unseen images.
 
 <p align="middle">
-  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/5bb42fb2-948c-46eb-8f22-e54c5edf252e" width="950" />
+  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/aeaf3ba4-e37f-41c8-9a68-b90f7d6b521c" width="950" />
 </p>
 
 Figure 2: Examples from the histopathology datasets used for evaluating domain generalization. Left: *Camelyon17-wilds* for which the domains are hospitals. Right: Combined epithelium-stroma dataset for which the domains are datasets.
