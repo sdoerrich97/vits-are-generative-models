@@ -31,7 +31,7 @@ Figure 2: Examples from the histopathology datasets used for evaluating domain g
 ### Image Quality of Reconstructions and Generated Images
 
 <p align="middle">
-  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/19f83d71-8c39-469d-8b51-9ff1054fd71f" width="950" />
+  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/8dfe850e-26cb-43d7-8b04-1881c177d644" width="950" />
 </p>
 
 Figure 3: Qualitative evaluation of the method. Left: Reconstruction capability on the *Camelyon17-wilds* dataset. Right: Generative capabilities on the *Camelyon17-wilds* dataset by means of synthetic images created through its anatomy-characteristics intermixing for images from the training set (rows 1, 2 and column 1, 2, 3), the validation set (row 3 and column 4), and the unseen test set (row 4 and column 5).
