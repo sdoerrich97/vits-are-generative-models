@@ -116,7 +116,7 @@ Once the config files are all set, you can execute for example a trainig run usi
 python train.py --config_file './config.yaml'
 ```
 
-Additionally, you can adjust some parameters on the fly. Please check out the main()-function of each training/evaluation script to see what these are. In case you intend to use Weights & Biases to track your experiments, you need to set it up respectively: [W&B Docs](https://docs.wandb.ai/)
+Additionally, you can adjust some parameters on the fly. Please check out the main()-function of each training/evaluation script to see what these are. In case you intend to use Weights & Biases to track your experiments, you need to set it up respectively: [W&B Quickstart](https://docs.wandb.ai/quickstart)
 
 Lastly, you will find all parameters (model architectures, number of epochs, learning rate, etc.) we used for our benchmark within the provided config-files within [`config`](https://github.com/sdoerrich97/vits-are-generative-models/tree/main/config) in case you want to reproduce our results. If you want to use your own models and datasets, you only need to adjust the config-file, respectively.
 
