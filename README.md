@@ -23,7 +23,7 @@ We assess the domain generalization ability of our method on the *Camelyon17-wil
 dataset and assessing the image quality of the image synthesizer's reconstructions (no mixing) and generated synthetic images, which exhibit the same anatomy but varied characteristics. Furthermore, we [quantitatively evaluate](#training-set-diversity-enhancement-for-improved-automatic-disease-classification) our method's suitability for improving domain generalization. For this, we employ our stand-alone encoder to generate additional synthetic images with mixed anatomy and characteristics, augmenting the training set diversity on the fly. These synthetic images, alongside the originals, are afterward fed into a subsequent classifier allowing it to learn from a more diverse set of samples, thereby generalizing better to unseen images.
 
 <p align="middle">
-  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/3d3c3f39-c625-40f8-b201-c373dde4bcba" width="950" />
+  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/5bb42fb2-948c-46eb-8f22-e54c5edf252e" width="950" />
 </p>
 
 Figure 2: Examples from the histopathology datasets used for evaluating domain generalization. Left: *Camelyon17-wilds* for which the domains are hospitals. Right: Combined epithelium-stroma dataset for which the domains are datasets.
@@ -31,7 +31,7 @@ Figure 2: Examples from the histopathology datasets used for evaluating domain g
 ### Image Quality of Reconstructions and Generated Images
 
 <p align="middle">
-  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/debb223b-b17d-46c6-87d5-07527414f14f" width="950" />
+  <img src="https://github.com/sdoerrich97/vits-are-generative-models/assets/98497332/19f83d71-8c39-469d-8b51-9ff1054fd71f" width="950" />
 </p>
 
 Figure 3: Qualitative evaluation of the method. Left: Reconstruction capability on the *Camelyon17-wilds* dataset. Right: Generative capabilities on the *Camelyon17-wilds* dataset by means of synthetic images created through its anatomy-characteristics intermixing for images from the training set (rows 1, 2 and column 1, 2, 3), the validation set (row 3 and column 4), and the unseen test set (row 4 and column 5).
