@@ -123,4 +123,4 @@ Lastly, you will find all parameters (model architectures, number of epochs, lea
 # Citation 📖
 If you find this work useful in your research, please consider citing our paper:
 - Publication: TBD
-- Preprint: TBD
+- [Preprint](https://arxiv.org/abs/2407.02900)
