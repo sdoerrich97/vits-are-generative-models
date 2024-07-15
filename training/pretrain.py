@@ -26,9 +26,9 @@ from timm.optim import AdamW
 from timm.scheduler import CosineLRScheduler
 
 # Import own scripts
-from code.utils import Misc
-from code.models.mixer import SharpMixer
-from code.data.data_loader import DatasetLoaderPretrain as DatasetLoader
+from ..utils import Misc
+from ..models.mixer import SharpMixer
+from ..data.data_loader import DatasetLoaderPretrain as DatasetLoader
 
 
 class PreTrainer:

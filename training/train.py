@@ -27,10 +27,10 @@ from timm.scheduler import CosineLRScheduler
 from sklearn.metrics import accuracy_score
 
 # Import own scripts
-from code.utils import Misc
-from code.models.mixer import SharpMixer
-from code.models.classifier import SharpClassifier
-from code.data.data_loader import DatasetLoaderTrain as DatasetLoader
+from ..utils import Misc
+from ..models.mixer import SharpMixer
+from ..models.classifier import SharpClassifier
+from ..data.data_loader import DatasetLoaderTrain as DatasetLoader
 
 
 class Trainer:

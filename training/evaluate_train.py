@@ -25,9 +25,9 @@ from transformers import set_seed
 from sklearn.metrics import accuracy_score
 
 # Import own scripts
-from code.utils import Misc
-from code.models.classifier import SharpClassifier
-from code.data.data_loader import DatasetLoaderTrain as DatasetLoader
+from ..utils import Misc
+from ..models.classifier import SharpClassifier
+from ..data.data_loader import DatasetLoaderTrain as DatasetLoader
 
 
 class EvaluateTraining:

@@ -22,7 +22,7 @@ from torch.utils.data import DataLoader
 from albumentations.pytorch import ToTensorV2
 
 # Import own packages
-from code.data.dataset import Data, UnlabeledDataset, LabeledDataset, MetaLabeledDataset
+from dataset import Data, UnlabeledDataset, LabeledDataset, MetaLabeledDataset
 
 
 def seed_worker(worker_id):

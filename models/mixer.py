@@ -15,9 +15,9 @@ import torch
 import torch.nn as nn
 
 # Import own packages
-from code.models.blocks.vit import EncoderViT
-from code.utils import Loss
-from code.models.utils import Mixing
+from blocks.vit import EncoderViT
+from ..utils import Loss
+from .utils import Mixing
 
 
 class SharpMixer(nn.Module):

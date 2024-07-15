@@ -22,7 +22,7 @@ from functools import partial
 from timm.models.vision_transformer import PatchEmbed, Block
 
 # Import own packages
-from code.models.utils import PositionEmbedding, Patches
+from ..utils import PositionEmbedding, Patches
 
 
 class EncoderViT(nn.Module):

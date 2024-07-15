@@ -14,15 +14,6 @@ Implementation of a classifier with varying backbones.
 import timm
 import torch.nn as nn
 
-# Import packages
-import torch
-from functools import partial
-from timm.models.vision_transformer import Block
-
-# Import own packages
-from code.models.utils import PositionEmbedding
-
-
 class SharpClassifier(nn.Module):
     """
     unORANIC#'s classifier with a timm backbone.

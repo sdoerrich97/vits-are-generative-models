@@ -22,9 +22,9 @@ from pathlib import Path
 from transformers import set_seed
 
 # Import own scripts
-from code.utils import Misc
-from code.models.mixer import SharpMixer
-from code.data.data_loader import DatasetLoaderPretrain as DatasetLoader
+from ..utils import Misc
+from ..models.mixer import SharpMixer
+from ..data.data_loader import DatasetLoaderPretrain as DatasetLoader
 
 
 class EvaluatePretraining:
