@@ -111,10 +111,12 @@ cd ../vits-are-generative-models
 
 You can adjust the parameters and hyperparameters of each training/evaluation run within the respective copy within [`config`](https://github.com/sdoerrich97/vits-are-generative-models/tree/main/config). Additionally, you can specify the GPU-configuration you want to use in [`accelerate`](https://github.com/sdoerrich97/vits-are-generative-models/tree/main/config/accelerate)
 
-Once the config files are all set, you can execute for example a trainig run using:
+Once the config files are all set, you can execute for example a pretraining or trainig run using:
 ```
-python train.py --config_file './config.yaml'
+python training/pretrain.py --config_file './config.yaml'
+python training/train.py --config_file './config.yaml'
 ```
+Please note that the project uses relative import statements. **Thus, it is important that you execute the code from the project root.**
 
 Additionally, you can adjust some parameters on the fly. Please check out the main()-function of each training/evaluation script to see what these are. In case you intend to use Weights & Biases to track your experiments, you need to set it up respectively: [W&B Quickstart](https://docs.wandb.ai/quickstart)
 
