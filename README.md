@@ -1,4 +1,4 @@
-# Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization @MICCAI 2024
+# Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization @ MICCAI2024
 <p align="center">
     [<a href="https://arxiv.org/abs/2407.02900">Preprint</a>]
     <!--[<a href="">Publication</a>]-->
