@@ -1,5 +1,9 @@
-# Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization
-Official code repository for the paper "Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization" [MICCAI 2024]
+# Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization @MICCAI 2024
+<p align="center">
+    [<a href="https://arxiv.org/abs/2407.02900">Preprint</a>]
+    <!--[<a href="">Publication</a>]-->
+    [<a href="#citation-">Citation</a>]
+</p>
 
 ## Overview 🧠
 Despite notable advancements, the integration of deep learning (DL) techniques into impactful clinical applications, particularly in the realm of digital histopathology, has been hindered by challenges associated with achieving robust generalization across diverse imaging domains and characteristics. Traditional mitigation strategies in this field such as data augmentation and stain color normalization have proven insufficient in addressing this limitation, necessitating the exploration of alternative methodologies. To this end, we propose a novel generative method for domain generalization in histopathology images. Our method employs a generative, self-supervised Vision Transformer to dynamically extract characteristics of image patches and seamlessly infuse them into the original images, thereby creating novel, synthetic images with diverse attributes. By enriching the dataset with such synthesized images, we aim to enhance its holistic nature, facilitating improved generalization of DL models to unseen domains. Extensive experiments conducted on two distinct histopathology datasets demonstrate the effectiveness of our proposed approach, outperforming the state of the art substantially, on the *Camelyon17-wilds* challenge dataset (+2\%) and on a second epithelium-stroma dataset (+26\%). Furthermore, we emphasize our method's ability to readily scale with increasingly available unlabeled data samples and more complex, higher parametric architectures.
@@ -126,3 +130,12 @@ Lastly, you will find all parameters (model architectures, number of epochs, lea
 If you find this work useful in your research, please consider citing our paper:
 - Publication: TBD
 - [Preprint](https://arxiv.org/abs/2407.02900)
+```
+@InProceedings{doerrich2024selfSupervisedViTsAreGenerativeModelsForDG,
+    title={Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization},
+    author={Sebastian Doerrich and Francesco Di Salvo and Christian Ledig},
+    year={2024},
+    eprint={2407.02900},
+    archivePrefix={arXiv}, 
+}
+```
