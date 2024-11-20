@@ -128,8 +128,8 @@ Lastly, you will find all parameters (model architectures, number of epochs, lea
 
 # Citation 📖
 If you find this work useful in your research, please consider citing our paper:
-- [Publication](https://link.springer.com/chapter/10.1007/978-3-031-72117-5_60)
 - [Preprint](https://arxiv.org/abs/2407.02900)
+- [Publication](https://link.springer.com/chapter/10.1007/978-3-031-72117-5_60)
 ```
 @InProceedings{doerrich2024selfSupervisedViTsAreGenerativeModelsForDG,
     author={Sebastian Doerrich and Francesco Di Salvo and Christian Ledig},
