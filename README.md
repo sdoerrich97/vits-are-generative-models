@@ -1,7 +1,7 @@
 # Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization @ MICCAI 2024
 <p align="center">
     [<a href="https://arxiv.org/abs/2407.02900">Preprint</a>]
-    <!--[<a href="">Publication</a>]-->
+    [<a href="https://link.springer.com/chapter/10.1007/978-3-031-72117-5_60">Publication</a>]
     [<a href="#citation-">Citation</a>]
 </p>
 
@@ -128,14 +128,18 @@ Lastly, you will find all parameters (model architectures, number of epochs, lea
 
 # Citation 📖
 If you find this work useful in your research, please consider citing our paper:
-- Publication: TBD
+- [Publication](https://link.springer.com/chapter/10.1007/978-3-031-72117-5_60)
 - [Preprint](https://arxiv.org/abs/2407.02900)
 ```
 @InProceedings{doerrich2024selfSupervisedViTsAreGenerativeModelsForDG,
-    title={Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization},
     author={Sebastian Doerrich and Francesco Di Salvo and Christian Ledig},
+    editor={Marius George Linguraru and Qi Dou and Aasa Feragen and Stamatia Giannarou and Ben Glocker and Karim Lekadir and Julia A. Schnabel}
+    title={Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization},
+    booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024}
     year={2024},
-    eprint={2407.02900},
-    archivePrefix={arXiv}, 
+    publisher={Springer Nature Switzerland},
+    address={Cham},
+    pages={644--654}
+    isbn={978-3-031-72117-5}
 }
 ```
