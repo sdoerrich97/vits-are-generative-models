@@ -133,13 +133,13 @@ If you find this work useful in your research, please consider citing our paper:
 ```
 @InProceedings{doerrich2024selfSupervisedViTsAreGenerativeModelsForDG,
     author={Sebastian Doerrich and Francesco Di Salvo and Christian Ledig},
-    editor={Marius George Linguraru and Qi Dou and Aasa Feragen and Stamatia Giannarou and Ben Glocker and Karim Lekadir and Julia A. Schnabel}
+    editor={Marius George Linguraru and Qi Dou and Aasa Feragen and Stamatia Giannarou and Ben Glocker and Karim Lekadir and Julia A. Schnabel},
     title={Self-supervised Vision Transformer are Scalable Generative Models for Domain Generalization},
-    booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024}
+    booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
     year={2024},
     publisher={Springer Nature Switzerland},
     address={Cham},
-    pages={644--654}
+    pages={644--654},
     isbn={978-3-031-72117-5}
 }
 ```
